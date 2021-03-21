@@ -1,0 +1,12 @@
+addi $s0, $z, 844
+addi $s1, $z, 868
+addi $t0, $z, 1
+addi $t1, $z, 2
+sw $t0, $s0
+sw $t1, $s1	
+lw $t2, $s0
+lw $t3, $s1
+add $t3, $t3, $t2
+addi $s2, $z, 1028
+sw $t3, $s2
+
